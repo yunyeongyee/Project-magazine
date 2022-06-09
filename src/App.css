@@ -1,0 +1,86 @@
+/* #61dafb; #4900ff; #282c34; whitesmoke; */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+*{
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  color:#282c34;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header {
+  min-height: 30px;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border-bottom: 1px solid #282c34;
+  z-index: 1;
+}
+
+.HeaderTitle {
+  float: left;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  color: #282c34;
+}
+
+.HeaderTitle:hover,
+   :active,
+   :focus {
+    color: #61dafb;
+    cursor: pointer;
+}
+
+.Footer{
+  height: 50px;
+  width: 100%;
+}
+
+.CloudUploadIcon {
+  display: block;
+  position: fixed;
+  bottom: 0; 
+  right: 0;
+  margin: 7px 20px;
+}
+ 
+/* .CloudUploadIcon:hover,
+:focus,
+:active {
+
+  transform: translate(0%, -7%);
+  transition: 0.3s ease-out;
+  animation-iteration-count: 1;
+} */
+
+/* .App-logo {
+  animation: logo-spin infinite 20s linear;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .App-link {
+  color: #61dafb;
+} */
